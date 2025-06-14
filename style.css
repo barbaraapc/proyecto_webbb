@@ -1,26 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif; /* En esta parte se cambia el tipo de letra en toda la pagina, y tambien quita espacios en blanco*/
     margin: 0;
     padding: 0;
 }
 
 .container {
-    width: 80%;
+    width: 60%; /* en esta parte hace que el contenido no quite todo el ancho de la pantalla, solo ocupa el 80%, pero realice una modificacion y solo ocupa el 60%*/
     margin: 0 auto;
     padding: 20px 0;
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* esta seccion realiza un cambio de color oscuro al encabezado, y le pone letras de colro blanco , */ 
     color: #fff;
     text-align: center;
     padding: 100px 0;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 4.5em; /* el titulo principal se maneja de tamaño en esta parte, normalmente tenia 2.5em, pero lo cambie a 4.5em y "bienvenido a nuestra pagina" se ve mucho mas grande */
 }
 
+/* esta parte tiene que ver con el boton, da un color azul, letras blancas, y tiene bordes redondeados */
 .btn {
     display: inline-block;
     background-color: #007bff;
@@ -35,11 +36,11 @@ header h1 {
     background-color: #0056b3;
 }
 
-section {
+section { /*  Se agrega espacio arriba y abajo en cada sección. */ 
     padding: 50px 0;
 }
 
-h2 {
+h2 { /* ayuda a centrar los subtitulos */
     text-align: center;
 }
 
@@ -52,7 +53,7 @@ h2 {
     font-size: 1.5em;
 }
 
-.testimonial {
+.testimonial { /*  Los testimonios tienen fondo clarito, bordes redondeados y letra cursiva, tambien el nombre del cliente sale en negrita */
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
@@ -71,7 +72,7 @@ form {
     max-width: 600px;
     margin: 0 auto;
 }
-
+/* Los campos del formulario ocupan todo el ancho */
 input[type="text"],
 input[type="email"],
 textarea {
@@ -96,7 +97,7 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-footer {
+footer { /*  El pie de página tiene fondo oscuro, letras blancas y el texto está centrado. */
     background-color: #333;
     color: #fff;
     text-align: center;
